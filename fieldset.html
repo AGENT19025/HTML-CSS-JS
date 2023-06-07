@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Fieldset in HTML
+        </title>
+    </head>
+    <body>
+        <form action="newpage.html">
+            <fieldset>
+                <legend>Like HTML</legend>
+                <input type="radio" name="Yes" value="yes">Yes
+                <input type="radio" name="No" value="no">No
+            </fieldset>
+            <br>
+            <div>
+                How old you are?<input type="text" id="age" name="age" min="1" max="80" ><br>
+                <br>What's your favourite fruit?<input type="text" id="name" name="fruit" list="list1"><br>
+                <datalist id="list1">
+                    <option>Banana</option>
+                    <option>Apple</option>
+                    <option>Cherry</option>
+                    <option>Pine-apple</option>
+                </datalist>
+                <br>What's your Gmail<input type="email" id="email" name="gmail"><br>
+               <br>Leave a short message<textarea name="message" rows="5" cols="40">Leave a short message</textarea><br>
+               <br><button type="button">Submit</button>
+
+            </div>
+        </form>
+    </body>
+</html>
