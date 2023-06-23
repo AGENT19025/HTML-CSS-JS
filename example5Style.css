@@ -1,0 +1,14 @@
+#firstParagraph{
+    color:rgba(162, 186, 23, 0.495);
+    font-size: 24px;
+}
+.red{
+    color:red;
+}
+.blue{
+    color: blue;
+}
+.bigFont{
+    font-size:32px;
+    color: green;
+}

@@ -1,0 +1,15 @@
+a:active
+{
+    color: brown;
+}
+section{
+    background-color:bisque;
+}
+.container div:last-child
+{
+    background: purple;
+}
+div:nth-child(odd)
+{
+    background: peru;
+}

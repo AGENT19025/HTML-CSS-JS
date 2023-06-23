@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Switches in JS</title>
+    </head>
+    <body>
+        <h1>Hey Welcome To AG Coder's</h1>
+        <button type="button" onclick="alert('Hey,Ok!')">Click</button>
+    </body>
+    <script>
+        function check(x)
+        {
+            console.log(x);
+            switch(x)
+            {
+                case 'one':
+                message('this was one');
+                break;
+                case 'two':
+                message('this was two');
+                break;
+                case 'three':
+                message('this was three');
+                break;
+                case 2:
+                message('this was 2');
+                break;
+                default:
+                message('nothing was matched');
+            }
+        }
+        function message(s)
+        {
+            document.querySelector('h1').innerHTML=s;
+        }
+    </script>
+</html>

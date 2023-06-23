@@ -1,0 +1,17 @@
+body{
+    
+    background-color:rgb(235, 187, 169);
+}
+section{
+    background-color: lightblue;
+}
+footer{
+    background-color: rgb(129, 129, 129);
+}
+a{
+    background-color: rgb(107, 243, 22);
+}
+li{
+    list-style: none;
+    display: inline-block;
+}

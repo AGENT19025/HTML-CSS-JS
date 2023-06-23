@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Fun With Strings</title>
+    </head>
+    <body>
+        <h1>Hey Welcome To AG Coder's</h1>
+        <button type="button" onclick="alert('Hey,Ok!')">Click</button>
+    </body>
+    <script>
+        var mystr="Hello Wolrd one two three world world banana mangoes apples pineapple ";
+        function check(x)
+        {
+           var loc=0;
+           loc=mystr.search(x);
+           
+           if(loc>=0)
+           {
+            message(loc);
+           }
+           else
+           {
+            message('not  found');
+           }
+        }
+        function message(s)
+        {
+            document.querySelector('h1').innerHTML=s;
+        }
+    </script>
+</html>

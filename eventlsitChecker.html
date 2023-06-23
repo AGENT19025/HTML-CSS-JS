@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Event List Checker</title>
+    </head>
+    <body>
+        <div id="output"></div>
+        <input type="number" name="myNum" min="0" max="100" value="4">
+        <input type="button" id="testBtn" value="check">
+
+
+        <script>
+            const output=document.getElementById('output');
+            const testBtn=document.getElementById('testBtn');
+            testBtn.addEventListener('click',checkVal);
+
+            function checkVal()
+            {
+                let val=document.querySelector('input[name="myNum"]').value;
+                output.innerHTML=numChecker(val);
+            }
+            function numChecker(x)
+            {
+                if(x%2)
+                {
+                    res="it was odd";
+                }
+                else
+                {
+                    res="it was even";
+                }
+                return res;
+            }
+        </script>
+    </body>
+</html>

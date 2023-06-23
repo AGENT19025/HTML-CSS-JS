@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>JS Functions</title>
+    </head>
+    <body>
+        <h1>Java Script</h1>
+        <button type="button" onclick="message('Hello World')">Click</button>
+    </body>
+    <script>
+        var b=0;
+        function message(a)
+        {
+            b++;
+            var output=a+" "+b;
+            document.querySelector('h1').innerHTML=output;
+            console.log(a);
+            console.log(b);
+        }
+        
+    </script>
+</html>

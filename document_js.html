@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Using Documents in JS</title>
+    </head>
+    <body>
+        <h1>Using Documents In JS</h1>
+        <h2>Hey Ok!</h2>
+        <input type="text" id="myinput" value="test">
+        <button type="button" id="testButton">Click</button>
+    </body>
+    <script>
+        const myele=document.querySelector('h2')
+        const myBtn=document.querySelector('#testButton');
+        myBtn.addEventListener('click',message);
+        function message()
+        {
+            let temp=document.getElementById('myinput');
+            output(temp.value);
+        }
+        function output(x)
+        {
+            myele.innerHTML=x;
+        }
+    </script>
+</html>

@@ -1,0 +1,54 @@
+body{
+    background-color: #3c3176;
+}
+h2
+{
+    background-color: #10073b;
+}
+section
+{
+    border:3px dotted whitesmoke;
+    min-height: 200px;
+    border-color:  #867db0;
+    margin: 3px 0px;
+    padding:5px;
+    
+}
+.logo
+{
+    text-align: center;
+    font-family:fantasy;
+    font-size: 1.5em;
+    color: solid red;
+    background-color: #fff;
+}
+nav{
+    font: 6;
+    background-color: #fff;
+    color: #231858;
+    padding: 0.1%;
+}
+.myclass{
+    color:rgb(40, 29, 1);
+}
+footer
+{
+    text-align: center;
+    background-color: grey;
+    padding: 0.1px;
+}
+img
+{
+    float: right;
+    max-width: 150px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    background-color:rgb(18, 106, 184);
+    color: #e14949;
+    width: 70px;
+    padding: 5px 20px;
+    margin: 5px;
+    text-align: center;
+}

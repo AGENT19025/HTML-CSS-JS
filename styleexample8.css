@@ -1,0 +1,21 @@
+body
+{
+    background-color: azure;
+}
+div
+{
+    color: rgb(192, 179, 7);
+    display: inline;
+}
+li
+{
+    /*display: inline-block;
+    width: 60px;
+    height: 40px;
+    color: tomato;*/
+    list-style:none;
+}
+h1
+{
+    color: violet;
+}

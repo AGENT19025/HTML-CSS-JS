@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML Tables Using CSS</title>
+        <style>
+           p{
+            border: 1px solid violet;
+            text-align: center;
+            width: 300px;
+            margin: auto;
+           } 
+           table{
+            width: 300px;
+            border:1px solid blue;
+           } 
+           th{
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+           }
+           td{
+            border: 1px solid #8faf00;
+           }
+           th,td{
+            text-align: center;
+            padding: 5px;
+           }
+           tr{
+            border: 1px solid greenyellow;
+           }
+           tr:nth-child(odd)
+           {
+            background-color: black;
+            color: #fff;
+           }
+           tr:nth-child(even)
+           {
+            background-color:#bbb ;
+            color: #fff;
+           }
+           textarea{
+            border: 1px solid red;
+            overflow-x: auto;
+            overflow-y: scroll;
+           }
+           ul{
+            border: 1px solid black;
+            width: 300px;
+            background-color: aquamarine;
+            margin-left:  auto;
+            margin-right: auto;
+           }
+           .test1
+           {
+            border: 1px solid orangered;
+            position: absolute;
+            background-color: #8faf00;
+           }
+           .test4
+           {
+            border: 1px solid palevioletred;
+            float:right;
+            width: 200px;
+           }
+           .test3{
+            float: none;
+           }
+           .test5
+           {
+            background:red;
+            position: absolute;
+            top:10%;
+            left:10%;
+            width:80%;
+           }
+
+        </style>
+    </head>
+    <body>
+        <textarea>Hey,Hello Welcome to AG Coder's</textarea>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <table>
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Vihwas</td>
+                <td>Uday</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>rakshana</td>
+                <td>kumari</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>kanchana</td>
+                <td>kumari</td>
+                <td>19</td>
+            </tr>
+        </table>
+        <section>
+            <p>hello people 1</p>
+            <p>hello people 2</p>
+            <p class="test1">hello people 3</p>
+            <p>hello people 4</p>
+            <p>hello people 5</p>
+        </section>
+        <section>
+            <h3 class="test1">AG CODER'S</h3>
+            <h3 class="test2">AG CODER'S</h3>
+            <h3 class="test3">AG CODER'S</h3>
+            <h3 class="test4">AG CODER'S</h3>
+            <h3 class="test5">AG CODER'S</h3>
+        </section>
+    </body>
+</html>

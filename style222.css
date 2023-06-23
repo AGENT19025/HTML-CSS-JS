@@ -1,0 +1,43 @@
+body{
+    background-color: coral;
+}
+.subcolor{
+    background-color: aliceblue;
+}
+li
+{
+    list-style:none;
+    display: inline;
+    background-color: rgb(228, 200, 89);
+}
+.myclass{
+    color: floralwhite;
+    background-color: beige;
+}
+.myclass1
+{
+    background-color: orange;
+}
+.mystyle
+{
+    text-transform:uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.textright
+{
+    text-align:center;
+    width: 130%;
+}
+span{
+    background-color: orange;
+}
+.highlight
+{
+    background-color: dimgray;
+}
+.pics
+{
+    max-width: 100%;
+    
+}

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Exercise 2</title>
+    </head>
+    <body>
+        <div>
+            <h2>AG CODER'S</h2>
+            <button type="button" onclick="fun1()">Click 1</button>
+            <button type="button" onclick="fun2()">Click 2</button>
+            <button type="button" onclick="fun3()">Click 3</button>
+        </div>
+    </body>
+    <script>
+        var a=0,b=0,c=0,output;
+        function fun1()
+        {
+            a++;
+            fun4();
+            
+        }
+        function fun2()
+        {
+            b++;
+            fun4();
+            
+        }
+        function fun3()
+        {
+            c++;
+            fun4()
+        }
+        function fun4()
+        {
+            output=a+" "+b+" "+c;
+            document.querySelector('h2').innerHTML=output;
+        }
+
+    </script>
+</html>
